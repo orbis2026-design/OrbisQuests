@@ -35,7 +35,7 @@ public class QuestsPlugin extends NightPlugin {
     @Override
     @NotNull
     protected PluginDetails getDefaultDetails() {
-        return PluginDetails.create("Quests", new String[]{"equests", "excellentquests"})
+        return PluginDetails.create("Quests", new String[]{"equests", "orbisquests"})
             .setConfigClass(Config.class)
             .setPermissionsClass(Perms.class);
     }
