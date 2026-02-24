@@ -56,7 +56,7 @@ Features built-in **Daily Quests**, **Milestones** and **Battle Pass**!
 ## System Requirements
 
 - Server Software: [**Spigot**](https://www.spigotmc.org/link-forums/88/) or [**Paper**](https://papermc.io/downloads/paper)  
-- Server Version: <span style="color:red">**1.21.8**</span> or above  
+- Server Version: <span style="color:red">**1.21.11**</span> or above  
 - Java Version: [**21**](https://adoptium.net/temurin/releases) or above  
 - Dependencies: 
   - [**nightcore**](https://modrinth.com/plugin/nightcore)  
@@ -78,13 +78,13 @@ If you like my work or enjoy using my plugins, feel free to [Buy me a coffee](ht
 If your environment blocks direct access to PaperMC repositories, install `paper-api` into your local Maven cache from pre-downloaded artifacts:
 
 ```bash
-./scripts/auto-install-paper-api.sh 1.21.8-R0.1-SNAPSHOT
+./scripts/auto-install-paper-api.sh 1.21.11-R0.1-SNAPSHOT
 ```
 
 The script expects both files to be present first:
 
-- `.paper-cache/paper-api-1.21.8-R0.1-SNAPSHOT.jar`
-- `.paper-cache/paper-api-1.21.8-R0.1-SNAPSHOT.pom`
+- `.paper-cache/paper-api-1.21.11-R0.1-SNAPSHOT.jar`
+- `.paper-cache/paper-api-1.21.11-R0.1-SNAPSHOT.pom`
 
 After that, run:
 
