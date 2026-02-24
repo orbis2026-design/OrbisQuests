@@ -71,3 +71,24 @@ Features built-in **Daily Quests**, **Milestones** and **Battle Pass**!
 
 ## Donate
 If you like my work or enjoy using my plugins, feel free to [Buy me a coffee](https://ko-fi.com/nightexpress) :) Thank you! 🧡
+
+
+## Build in Restricted/Proxy Environments
+
+If your environment blocks direct access to PaperMC repositories, install `paper-api` into your local Maven cache from pre-downloaded artifacts:
+
+```bash
+./scripts/auto-install-paper-api.sh 1.21.8-R0.1-SNAPSHOT
+```
+
+The script expects both files to be present first:
+
+- `.paper-cache/paper-api-1.21.8-R0.1-SNAPSHOT.jar`
+- `.paper-cache/paper-api-1.21.8-R0.1-SNAPSHOT.pom`
+
+After that, run:
+
+```bash
+mvn -U -DskipTests clean package
+```
+
