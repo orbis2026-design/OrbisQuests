@@ -5,7 +5,7 @@ import su.nightexpress.quests.QuestsPlaceholders;
 
 public class Perms {
 
-    public static final String PREFIX         = "excellentquests.";
+    public static final String PREFIX         = "orbisquests.";
     public static final String PREFIX_COMMAND = PREFIX + "command.";
     public static final String PREFIX_BYPASS  = PREFIX + "bypass";
 
