@@ -122,7 +122,7 @@
         </repository>
 
         <repository>
-            <id>jitpack.io</id>
+            <id>jitpack-orbis</id>
             <url>https://jitpack.io</url>
             <releases>
                 <enabled>true</enabled>
@@ -130,11 +130,6 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-        </repository>
-
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
